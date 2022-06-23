@@ -1,5 +1,5 @@
 import sys
-import methodFile
+import peopleFile
 
 
     # filein section needs to add back in later
@@ -9,29 +9,22 @@ def menu():
     """ This is the menu system for the program """
     print()
     print("This is the Menu method")
-    class User2:
-        """ This is a class for User2 """
+    class people:
+        """ This is a class for people """
         pass
 
-    user2 = User2()
-    user2.first_name = "Aidan"
-    user2.last_name = "Aedy"
-    name2 = user2.first_name + " " + user2.last_name
-    print(name2)
-
-    user1 = User2()
+    user1 = people()
     user1.first_name = "Pauline"
     user1.last_name = "Aedy"
     name1 = user1.first_name + " " + user1.last_name
     print(name1)
-    
-    user3info = methodFile.User3("Eleanor Aedy", 20041005)
-    print(user3info.name_full, user3info.birthday)
-    print(methodFile.User3.__doc__)
-    methodFile.printing_out()
+
+    people_info = peopleFile.people_main("Eleanor Aedy", 20041005)
+    print(people_info.name_full, people_info.birthday)
+    print(peopleFile.people_main.__doc__)
+    peopleFile.printing_out()
     print()
 
-    print()
 
 
 

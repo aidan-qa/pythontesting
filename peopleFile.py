@@ -1,6 +1,6 @@
 
-class User3:
-    """ This is a class for user3 in the methodFile """
+class people_main:
+    """- This is a class for people_main in the peopleFile -"""
 
     def __init__(self, full_name, birthday):
         self.name_full = full_name
