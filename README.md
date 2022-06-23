@@ -1,2 +1,2 @@
 # pythontesting
-small testing python project repository
+This is a small testing project for playing with concepts etc.
