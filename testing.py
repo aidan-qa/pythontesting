@@ -1,6 +1,5 @@
 import sys
 
-    # filein section needs to add back in
 
 def menu():
     print("This is the menu method")
@@ -14,7 +13,7 @@ def main():
 
     menu()
 
-    # fileout section needs to add back in
+    # fileout section needs to add back in later (number_entries)
 
 
 # ***************************   END MAIN FUNC. ! **************************
